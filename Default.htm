@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html class="defaultSkin left-layout _Skins_Tripane" data-mc-runtime-file-type="Default;TriPane">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title></title>
+        <link rel="Stylesheet" href="Skins/Default/Stylesheets/Slideshow.css" />
+        <link rel="Stylesheet" href="Skins/Default/Stylesheets/TextEffects.css" />
+        <link rel="Stylesheet" href="Skins/Default/Stylesheets/Styles.css" />
+        <link rel="Stylesheet" href="Skins/Default/Stylesheets/normalize.css" />
+        <link rel="Stylesheet" href="Skins/Default/Stylesheets/foundation_custom.css" />
+        <link rel="Stylesheet" href="Skins/Default/Stylesheets/offcanvas.css" />
+        <link rel="Stylesheet" href="Skins/Default/Stylesheets/Web.css" />
+        <link rel="Stylesheet" href="Skins/Default/Stylesheets/Tablet.css" />
+        <link rel="Stylesheet" href="Skins/Default/Stylesheets/Mobile.css" />
+        <script type="text/javascript" src="Resources/Scripts/jquery.min.js">
+        </script>
+        <script type="text/javascript" src="Resources/Scripts/foundation.min.js">
+        </script>
+        <script type="text/javascript" src="Resources/Scripts/plugins.min.js">
+        </script>
+        <script type="text/javascript" src="Resources/Scripts/purify.min.js">
+        </script>
+        <script type="text/javascript" src="Resources/Scripts/require.min.js">
+        </script>
+        <script type="text/javascript" src="Resources/Scripts/require.config.js">
+        </script>
+        <script type="text/javascript" src="Resources/Scripts/MadCapAll.js" defer="defer">
+        </script>
+    </head>
+    <body class="off-canvas hide-extras">
+        <div id="DEBUG_Log">
+            <div class="MCDebugLogHeader">
+            Log Console</div>
+            <div class="MCDebugLogBody">
+            </div>
+            <div class="MCDebugLogFooter">
+            </div>
+        </div><a class="skip-to-content tripane-skip showOnFocus" href="#">Passer au contenu principal</a>
+        <div id="header"><a class="homeLink logo" href="Default.htm"><img src="Skins/Default/Stylesheets/Images/transparent.gif" alt="Logo" /></a>
+            <div class="search-account-container">
+                <div class="central-account-wrapper">
+                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings" href="#">Settings</a>
+                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-bar search-bar-container needs-pie">
+                    <input id="search-field" class="search-field needs-pie" type="text" placeholder="Rechercher" aria-label="Rechercher" />
+                    <div class="search-filter-wrapper">
+                        <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" title="Tous les fichiers" aria-label="Filtre de recherche"><span>Tous les fichiers</span>
+                        </div>
+                        <div id="sf-content" class="search-filter-content">
+                            <ul>
+                                <li>
+                                    <button aria-labelledby="search-filters-label filterSelectorLabel-00001" href="#" class="mc-dropdown-item"><span id="filterSelectorLabel-00001">Tous les fichiers</span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="search-submit-wrapper" dir="ltr">
+                        <div class="search-submit" title="Rechercher"><span class="invisible-label">Démarrer la recherche</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="navigationResizeBar" class="show-for-xlarge-up columns navbar-offset">
+            <button id="show-hide-navigation" aria-expanded="true" aria-controls="navigation" class="needs-pie" dir="ltr" aria-label="Afficher le volet de navigation">
+            </button>
+        </div>
+        <div id="body" class="row collapse">
+            <div id="navigation" class="small-2 columns" role="complementary">
+                <form id="search-sidebar" class="search-bar-container needs-pie">
+                    <input id="search-field-sidebar" type="search" placeholder="Rechercher" aria-label="Rechercher" />
+                    <input id="responsive-search-index" type="search" class="tabs-panel-search" placeholder="Rechercher dans l’index" aria-label="Rechercher dans l’index" />
+                    <input id="responsive-search-glossary" type="search" class="tabs-panel-search" placeholder="Rechercher dans le glossaire" aria-label="Rechercher dans le glossaire" />
+                </form>
+                <div id="home" class="image-then-text tab-icon"><span id="home-icon" class="tabs-nav-icon"></span><span id="home-text" class="tabs-nav-text">Accueil</span>
+                </div>
+                <div class="tabs">
+                    <div class="tab">
+                        <ul role="presentation" class="tabs-nav clearfix image-then-text tab-icon">
+                            <li id="TocTab" class="needs-pie tabs-nav-active" aria-label="Table des matières">
+                                <div><span class="tabs-nav-icon active" title="Table des matières"></span><span class="tabs-nav-text">Table des matières</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="tabs-panel tabs-panel-active">
+                            <section id="toc" class="tabs-panel-content needs-pie" aria-label="Table des matières">
+                            </section>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <ul role="presentation" class="tabs-nav clearfix image-then-text tab-icon">
+                            <li id="IndexTab" class="needs-pie tabs-nav-inactive" style="display: none" aria-label="Index">
+                                <div><span class="tabs-nav-icon active" title="Index"></span><span class="tabs-nav-text">Index</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="tabs-panel">
+                            <input type="text" id="search-index" class="tabs-panel-search" placeholder="Rechercher dans l’index" aria-label="Rechercher dans l’index" />
+                            <section id="index" class="tabs-panel-content searchable needs-pie popup-container" data-see-prefix="Voir" data-see-also-prefix="Voir également" aria-label="Index">
+                                <div class="index-wrapper">
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <ul role="presentation" class="tabs-nav clearfix image-then-text tab-icon">
+                            <li id="GlossaryTab" class="needs-pie tabs-nav-inactive" style="display: none" aria-label="Glossaire">
+                                <div><span class="tabs-nav-icon active" title="Glossaire"></span><span class="tabs-nav-text">Glossaire</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="tabs-panel">
+                            <input type="text" id="search-glossary" class="tabs-panel-search" placeholder="Rechercher dans le glossaire" aria-label="Rechercher dans le glossaire" />
+                            <section id="glossary" class="tabs-panel-content searchable needs-pie popup-container" aria-label="Glossaire">
+                            </section>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <ul role="presentation" class="tabs-nav clearfix image-then-text tab-icon">
+                            <li id="BrowseSequencesTab" class="needs-pie tabs-nav-inactive" style="display: none" aria-label="Séquences de navigation">
+                                <div><span class="tabs-nav-icon active" title="Parcourir"></span><span class="tabs-nav-text">Parcourir</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="tabs-panel">
+                            <section id="browseSequences" class="tabs-panel-content needs-pie" aria-label="Séquences de navigation">
+                            </section>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <ul role="presentation" class="tabs-nav clearfix image-then-text tab-icon">
+                            <li id="CommunityTab" class="needs-pie pulse-required tabs-nav-inactive" aria-label="Communauté">
+                                <div><span class="tabs-nav-icon active" title="Communauté"></span><span class="tabs-nav-text">Communauté</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="tabs-panel">
+                            <section id="community" class="tabs-panel-content needs-pie popup-container pulse-required" aria-label="Communauté"><iframe id="community-frame-html5" name="community-frame-html5" frameborder="0"></iframe>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <ul role="presentation" class="tabs-nav clearfix image-then-text tab-icon">
+                            <li id="SearchTab" class="needs-pie tabs-nav-inactive" aria-label="Filtres de recherche">
+                                <div><span class="tabs-nav-icon active" title="Filtres de recherche"></span><span class="tabs-nav-text">Filtres de recherche</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="tabs-panel">
+                            <section id="search" class="tabs-panel-content needs-pie" aria-label="Filtres de recherche">
+                                <ul class="tree">
+                                    <li class="SearchFilterEntry tree-node tree-node-leaf">
+                                        <div class="SearchFilter"><span class="label">Tous les fichiers</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contentBody" class="small-10 expand-for-small-10 columns non-collapsable needs-pie" role="main">
+                <div id="responsiveHeader" class="needs-pie"><a class="homeLink" href="Default.htm"><div class="logo"><img src="Skins/Default/Stylesheets/Images/transparent.gif" alt="Logo" /></div></a>
+                    <div class="central-account-wrapper">
+                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings" href="#">Settings</a>
+                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="slideRight" class="toggle-topbar menu-icon">
+                        <button id="sidebarButton" aria-expanded="false" aria-controls="navigation" aria-label="Afficher le volet de navigation"><span></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="buttons toolbar-buttons popup-container">
+                    <div class="button-group-container-left">
+                        <button class="button needs-pie print-button" title="Imprimer">
+                            <div>
+                                <div role="img" class="button-icon-wrapper" aria-label="Imprimer">
+                                    <div class="button-icon"> </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Réduire tout" title="Développer tout" data-state1-title="Développer tout">
+                            <div>
+                                <div role="img" class="button-icon-wrapper" aria-label="Développer tout">
+                                    <div class="button-icon"> </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="button needs-pie remove-highlight-button" title="Supprimer les surlignages">
+                            <div>
+                                <div role="img" class="button-icon-wrapper" aria-label="Supprimer les surlignages">
+                                    <div class="button-icon"> </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div class="button-separator">
+                        </div>
+                        <div class="button-group star-buttons loading feedback-topic-required">
+                            <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Cliquez sur une étoile pour évaluer cette rubrique" data-state1-title="Cliquez sur une étoile pour évaluer cette rubrique" data-state2-title="Cliquez sur une étoile pour évaluer cette rubrique">
+                                <div role="img" class="button-icon-wrapper" aria-label="Cliquez sur une étoile pour évaluer cette rubrique" data-state1-alt="Cliquez sur une étoile pour évaluer cette rubrique" data-state2-alt="Cliquez sur une étoile pour évaluer cette rubrique">
+                                    <div class="button-icon"> </div>
+                                </div>
+                            </div>
+                            <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Cliquez sur une étoile pour évaluer cette rubrique" data-state1-title="Cliquez sur une étoile pour évaluer cette rubrique" data-state2-title="Cliquez sur une étoile pour évaluer cette rubrique">
+                                <div role="img" class="button-icon-wrapper" aria-label="Cliquez sur une étoile pour évaluer cette rubrique" data-state1-alt="Cliquez sur une étoile pour évaluer cette rubrique" data-state2-alt="Cliquez sur une étoile pour évaluer cette rubrique">
+                                    <div class="button-icon"> </div>
+                                </div>
+                            </div>
+                            <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Cliquez sur une étoile pour évaluer cette rubrique" data-state1-title="Cliquez sur une étoile pour évaluer cette rubrique" data-state2-title="Cliquez sur une étoile pour évaluer cette rubrique">
+                                <div role="img" class="button-icon-wrapper" aria-label="Cliquez sur une étoile pour évaluer cette rubrique" data-state1-alt="Cliquez sur une étoile pour évaluer cette rubrique" data-state2-alt="Cliquez sur une étoile pour évaluer cette rubrique">
+                                    <div class="button-icon"> </div>
+                                </div>
+                            </div>
+                            <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Cliquez sur une étoile pour évaluer cette rubrique" data-state1-title="Cliquez sur une étoile pour évaluer cette rubrique" data-state2-title="Cliquez sur une étoile pour évaluer cette rubrique">
+                                <div role="img" class="button-icon-wrapper" aria-label="Cliquez sur une étoile pour évaluer cette rubrique" data-state1-alt="Cliquez sur une étoile pour évaluer cette rubrique" data-state2-alt="Cliquez sur une étoile pour évaluer cette rubrique">
+                                    <div class="button-icon"> </div>
+                                </div>
+                            </div>
+                            <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Cliquez sur une étoile pour évaluer cette rubrique" data-state1-title="Cliquez sur une étoile pour évaluer cette rubrique" data-state2-title="Cliquez sur une étoile pour évaluer cette rubrique">
+                                <div role="img" class="button-icon-wrapper" aria-label="Cliquez sur une étoile pour évaluer cette rubrique" data-state1-alt="Cliquez sur une étoile pour évaluer cette rubrique" data-state2-alt="Cliquez sur une étoile pour évaluer cette rubrique">
+                                    <div class="button-icon"> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-separator feedback-topic-required">
+                        </div>
+                        <button class="button feedback-required login-button" id="normalLoginBtn" data-state1-class="login-button" data-state2-class="edit-user-profile-button" data-state2-title="Éditer le profil utilisateur" title="Connexion" data-state1-title="Connexion">
+                            <div>
+                                <div role="img" class="button-icon-wrapper" aria-label="Connexion">
+                                    <div class="button-icon"> </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="button-group-container-right">
+                        <button class="button needs-pie previous-topic-button" title="Précédent" disabled="true">
+                            <div>
+                                <div role="img" class="button-icon-wrapper" aria-label="Précédent">
+                                    <div class="button-icon"> </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div class="button current-topic-index-button disabled"><span class="sequence-index"></span>&#160;sur&#160;<span class="sequence-total"></span></div>
+                        <button class="button needs-pie next-topic-button" title="Suivant" disabled="true">
+                            <div>
+                                <div role="img" class="button-icon-wrapper" aria-label="Suivant">
+                                    <div class="button-icon"> </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="button needs-pie select-language-button" title="Changer de langue">
+                            <div>
+                                <div role="img" class="button-icon-wrapper" aria-label="Changer de langue">
+                                    <div class="button-icon"> </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                </div><span id="tripane-iframe-title" class="invisible-label" aria-hidden="true"></span>
+                <div id="contentBodyInner">
+                    <!-- frameBorder="0" is for IE 8 and below --><iframe id="topic" class="content" name="topic" frameBorder="0" aria-label="Rubrique"></iframe><iframe id="pulse" class="content" name="pulse" frameBorder="0" aria-label="Pulse"></iframe>
+                    <div id="search-results">
+                        <div id="search-results-flex">
+                            <div id="knowledge-panel">
+                            </div>
+                            <div id="searchPane" data-mc-featured-snippets-view-mode="Truncated" data-mc-knowledge-panel-view-mode="Truncated">
+                                <h1 id="results-heading" data-mc-style="Search Heading">Votre recherche pour <span class="query"></span> a donné <span class="total-results"></span>&#160;résultat(s).</h1>
+                                <div id="pagination" data-mc-style="Search Pagination"><a class="previousPage" data-mc-style="Search Pagination Item">Précédent</a><a class="nextPage" data-mc-style="Search Pagination Item">Suivant</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="login-dialog needs-pie">
+            <div class="login-dialog-header needs-pie">
+            Create Profile
+        </div>
+            <div class="login-dialog-content needs-pie">
+                <div class="profile-item-wrapper clearfix">
+                    <div class="label-wrapper">
+                        <label>Username *</label>
+                    </div>
+                    <div class="input-wrapper">
+                        <input class="needs-pie" type="text" name="Username" data-required="true" />
+                    </div>
+                </div>
+                <div class="profile-item-wrapper clearfix">
+                    <div class="label-wrapper">
+                        <label>Email Address *</label>
+                    </div>
+                    <div class="input-wrapper">
+                        <input class="needs-pie" type="text" name="EmailAddress" data-required="true" />
+                    </div>
+                </div>
+                <div class="profile-item-wrapper email-notifications-wrapper">
+                    <div class="label-wrapper">
+                    Email Notifications
+                </div>
+                    <div class="email-notifications-group needs-pie">
+                    I want to receive an email when...
+                    <div><label><input type="checkbox" name="CommentReplyNotification" />a reply is left to one of my comments</label></div><div><label><input type="checkbox" name="CommentSameTopicNotification" />a comment is left on a topic that I commented on</label></div><div><label><input type="checkbox" name="CommentSameHelpSystemNotification" />a comment is left on any topic in the Help system</label></div></div>
+                </div>
+                <div class="login-dialog-buttons">
+                    <button class="submit-button needs-pie" type="submit">Submit</button>
+                    <button class="cancel-button needs-pie">Cancel</button>
+                </div>
+                <div class="status-message-box"><span class="message verification-email-sent-message">An email has been sent to verify your new profile.</span><span class="message required-fields-missing-message">Please fill out all required fields before submitting your information.</span>
+                </div>
+            </div>
+        </div><span id="search-filters-label" class="invisible-label">Filtrer&#160;:</span>
+        <script type="text/javascript" src="Resources/Scripts/jquery.offcanvas.js">
+        </script>
+        <script>
+        $(document).foundation();
+    </script>
+    </body>
+</html>

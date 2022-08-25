@@ -1,0 +1,843 @@
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+/*<meta />*/
+
+p
+{
+	margin-top: 4pt;
+	margin-left: 6pt;
+	margin-right: 7pt;
+	font-family: Arial;
+	font-size: 8pt;
+	margin-bottom: 0pt;
+	mc-hyphenate: never;
+}
+
+ol
+{
+	margin-top: 4pt;
+	margin-left: 6pt;
+	margin-right: 7pt;
+	font-family: Arial;
+	font-size: 8pt;
+	margin-bottom: 0pt;
+}
+
+ul
+{
+	margin-top: 4pt;
+	margin-left: 6pt;
+	margin-right: 7pt;
+	font-family: Arial;
+	font-size: 8pt;
+	margin-bottom: 0pt;
+}
+
+li
+{
+	margin-top: 4pt;
+	margin-left: 6pt;
+	margin-right: 7pt;
+	font-family: Arial;
+	margin-bottom: 0pt;
+	font-size: 11pt;
+}
+
+td
+{
+	margin-top: 4pt;
+	margin-left: 6pt;
+	margin-right: 7pt;
+	font-family: Arial;
+	font-size: 8pt;
+	vertical-align: top;
+}
+
+span.span_1
+{
+	font-size: 10pt;
+}
+
+ol.ol_1
+{
+	margin-left: 6pt;
+	margin-right: 7pt;
+	margin-bottom: 10pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	margin-top: 0pt;
+}
+
+ul.ul_1
+{
+	margin-left: 6pt;
+	margin-right: 7pt;
+	margin-bottom: 10pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	margin-top: 0pt;
+}
+
+li.li_1
+{
+	margin-left: 6pt;
+	margin-right: 7pt;
+	margin-bottom: 10pt;
+	font-size: 11pt;
+	margin-top: 0pt;
+	font-family: Arial;
+}
+
+td.td_1
+{
+	margin-top: 4pt;
+	margin-left: 6pt;
+	margin-right: 7pt;
+	margin-bottom: 10pt;
+	vertical-align: top;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 16pt;
+	color: #5b6f7b;
+	font-family: Arial;
+}
+
+p.Section
+{
+	margin-bottom: 10pt;
+	font-weight: bold;
+	mc-hyphenate: never;
+	font-size: 16pt;
+	font-family: Arial;
+	margin-left: 0;
+	color: #5b6f7b;
+}
+
+p.SectionDetail
+{
+	margin-bottom: 10pt;
+	font-size: 11pt;
+	mc-hyphenate: never;
+	font-family: Arial;
+	margin-left: 0;
+}
+
+p.Champ
+{
+	margin-top: 16pt;
+	margin-bottom: 8pt;
+	mc-hyphenate: never;
+	font-size: 12pt;
+	font-family: Arial;
+	margin-left: 0;
+	font-weight: bold;
+	font-style: normal;
+	color: #5b6f7b;
+}
+
+p.ChampDefinition
+{
+	font-family: Arial;
+	color: #000000;
+	margin-bottom: 4pt;
+	mc-hyphenate: never;
+	font-size: 11pt;
+	margin-left: 0;
+}
+
+p.Soussection
+{
+	margin-bottom: 10pt;
+	margin-top: 14pt;
+	mc-hyphenate: never;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 14pt;
+	font-family: Arial;
+	margin-left: 0;
+	color: #5b6f7b;
+}
+
+span.span_2
+{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 10pt;
+}
+
+span.span_3
+{
+	font-weight: bold;
+}
+
+table.Valeurs
+{
+	width: 100%;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+p.ChampCateg
+{
+	font-family: Arial;
+	margin-bottom: 4pt;
+	mc-hyphenate: never;
+	margin-left: 30pt;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 11pt;
+}
+
+p.ChampExemple
+{
+	font-family: Arial;
+	color: #000000;
+	margin-bottom: 4pt;
+	mc-hyphenate: never;
+	font-size: 11pt;
+	margin-left: 30pt;
+}
+
+p.ChampSynonyme
+{
+	font-family: Arial;
+	color: #000000;
+	margin-bottom: 4pt;
+	mc-hyphenate: never;
+	font-size: 11pt;
+	margin-left: 30pt;
+}
+
+p.ChampExclusion
+{
+	font-family: Arial;
+	margin-bottom: 4pt;
+	mc-hyphenate: never;
+	font-size: 11pt;
+	margin-left: 30pt;
+}
+
+p.ValeurChampDefinition
+{
+	font-family: Arial;
+	margin-bottom: 4pt;
+	mc-hyphenate: never;
+	font-style: normal;
+	font-size: 11pt;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+p.ValeurChampExclusion
+{
+	font-family: Arial;
+	margin-left: 7pt;
+	margin-bottom: 4pt;
+	mc-hyphenate: never;
+	font-style: normal;
+	font-size: 11pt;
+}
+
+p.ValeurChampSynonyme
+{
+	font-family: Arial;
+	margin-left: 7pt;
+	margin-bottom: 4pt;
+	mc-hyphenate: never;
+	font-style: normal;
+	font-size: 11pt;
+}
+
+p.ValeurChampExemple
+{
+	font-family: Arial;
+	margin-left: 7pt;
+	margin-bottom: 4pt;
+	mc-hyphenate: never;
+	font-style: normal;
+	font-size: 11pt;
+}
+
+p.ValeurChampCateg
+{
+	margin-bottom: 10pt;
+	font-family: Arial;
+	margin-left: 7pt;
+	font-weight: normal;
+	mc-hyphenate: never;
+	font-style: normal;
+	font-size: 11pt;
+}
+
+p.ValeurChampEntete
+{
+	margin-bottom: 10pt;
+	font-weight: bold;
+	margin-left: 7pt;
+	mc-hyphenate: never;
+	font-style: normal;
+	color: #ffffff;
+	font-size: 11pt;
+	font-family: Arial;
+}
+
+p.ValeurChamp
+{
+	margin-top: 4pt;
+	margin-left: 6pt;
+	margin-right: 7pt;
+	font-family: Arial;
+	margin-bottom: 0pt;
+	mc-hyphenate: never;
+	font-style: normal;
+	font-size: 11pt;
+}
+
+h1
+{
+	margin-bottom: 0;
+	margin-top: 0;
+	font-weight: bold;
+	font-style: normal;
+	margin-right: 7px;
+	mc-hyphenate: never;
+	font-size: 16pt;
+	font-family: Arial;
+	margin-left: 0;
+	color: #5b6f7b;
+}
+
+p.ChampListeVal
+{
+	font-family: Arial;
+	color: #000000;
+	margin-bottom: 4pt;
+	mc-hyphenate: never;
+	font-size: 11pt;
+	margin-left: 30pt;
+}
+
+h2
+{
+	margin-left: 6px;
+	margin-right: 7px;
+	font-family: Calibri;
+	font-size: 12pt;
+	color: #000000;
+	mc-hyphenate: never;
+}
+
+p.Groupe
+{
+	margin-left: 36pt;
+	font-family: Calibri;
+	margin-top: 16pt;
+	margin-bottom: 8pt;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 14pt;
+	mc-hyphenate: never;
+	color: #5b6f7b;
+}
+
+fieldset
+{
+	margin-left: 40px;
+	margin-right: 40px;
+	mc-hyphenate: never;
+}
+
+MadCap|relationshipsHeading.task
+{
+	mc-hyphenate: never;
+}
+
+MadCap|relationshipsHeading.reference
+{
+	mc-hyphenate: never;
+}
+
+MadCap|relationshipsHeading.concept
+{
+	mc-hyphenate: never;
+}
+
+MadCap|relationshipsHeading
+{
+	mc-hyphenate: never;
+}
+
+dir
+{
+	mc-hyphenate: never;
+}
+
+menu
+{
+	mc-hyphenate: never;
+}
+
+center
+{
+	mc-hyphenate: never;
+}
+
+pre
+{
+	mc-hyphenate: never;
+}
+
+blockquote
+{
+	mc-hyphenate: never;
+}
+
+address
+{
+	mc-hyphenate: never;
+}
+
+div
+{
+	page-break-inside: avoid;
+	mc-hyphenate: never;
+}
+
+h6
+{
+	mc-hyphenate: never;
+}
+
+h5
+{
+	mc-hyphenate: never;
+}
+
+h4
+{
+	mc-hyphenate: never;
+}
+
+h3
+{
+	mc-hyphenate: never;
+}
+
+a:link
+{
+	color: #5b6f7b;
+}
+
+a:visited
+{
+	color: #5b6f7b;
+}
+
+a:hover
+{
+	color: #5b6f7b;
+}
+
+a:focus
+{
+	color: #5b6f7b;
+}
+
+a.Popup
+{
+	color: #5b6f7b;
+}
+
+a.MCBreadcrumbsLink
+{
+	color: #5b6f7b;
+}
+
+a.GlossaryPageTerm
+{
+	color: #5b6f7b;
+}
+
+MadCap|relatedTopics:focus
+{
+	color: #5b6f7b;
+}
+
+MadCap|relatedTopics
+{
+	color: #5b6f7b;
+}
+
+MadCap|keywordLink:hover
+{
+	color: #5b6f7b;
+}
+
+MadCap|keywordLink:focus
+{
+	color: #5b6f7b;
+}
+
+MadCap|keywordLink
+{
+	color: #5b6f7b;
+}
+
+MadCap|conceptLink:hover
+{
+	color: #5b6f7b;
+}
+
+MadCap|conceptLink:focus
+{
+	color: #5b6f7b;
+}
+
+MadCap|conceptLink
+{
+	color: #5b6f7b;
+}
+
+MadCap|relatedTopics:hover
+{
+	color: #5b6f7b;
+}
+
+MadCap|xref:focus
+{
+	color: #5b6f7b;
+}
+
+MadCap|xref
+{
+	color: #5b6f7b;
+}
+
+MadCap|xref:hover
+{
+	color: #5b6f7b;
+}
+
+MadCap|toggler:focus
+{
+	color: #5b6f7b;
+}
+
+MadCap|toggler
+{
+	color: #5b6f7b;
+}
+
+MadCap|toggler:hover
+{
+	color: #5b6f7b;
+}
+
+MadCap|popupHead
+{
+	color: #5b6f7b;
+}
+
+MadCap|shortcut
+{
+	color: #5b6f7b;
+}
+
+MadCap|helpControlMenuItem.Highlighted
+{
+	background-color: #5b6f7b;
+}
+
+span.Entete
+{
+	color: #5b6f7b;
+	font-family: Arial;
+	font-size: 16pt;
+}
+
+@media print
+{
+	tr
+	{
+		page-break-inside: avoid;
+	}
+
+	td
+	{
+		page-break-inside: avoid;
+	}
+
+	p
+	{
+		page-break-inside: avoid;
+	}
+
+	div
+	{
+		page-break-inside: avoid;
+	}
+	
+	.btnAlbumPhoto, .simple_overlay 
+	{
+		display: none;	 
+	}
+}
+
+p.Lien
+{
+	color: #5b6f7b;
+	text-decoration: underline;
+	font-size: 11pt;
+}
+
+/*
+	Photo album trigger
+*/
+
+
+/*
+	Photo album button
+*/
+
+.btnAlbumPhoto {
+
+	background:transparent url(../../Resources/Images/UI/Navigation/Icones/Photo_16X16.png) no-repeat scroll 0 0;
+	display:block;
+	height:16px;
+	margin-bottom:30px;
+	overflow:hidden;
+	text-indent:-999em;
+	width:16px;
+	cursor:pointer;
+}
+
+
+/*
+	Overlaying window
+*/
+
+.simple_overlay {
+	
+	/* must be initially hidden */
+	display:none;
+	
+	/* place overlay on top of other elements */
+	z-index:10000;
+	
+	/* dimensions*/
+	width:640px;	
+	
+	/* styling */
+	padding:35px;
+		
+	/* growing background image */
+	background-image:url(../../Resources/Images/UI/Navigation/Overlay/white.png);
+
+}
+
+/* 
+close button positioned on upper right corner  of Overlaying window
+*/
+
+.simple_overlay .close {
+
+	background-image:url(../../Resources/Images/UI/Navigation/Overlay/close.png);
+	position:absolute;
+	right: 1px;
+	top: 1px;	
+	cursor:pointer;
+	height:35px;
+	width:35px;	
+}
+
+.simple_overlay .contentWrap
+{
+		/*dimensions*/		
+		height:75%;
+		width:100%;
+}
+
+.simple_overlay .contentWrap .title {
+	
+	/* some "skinning" */	
+	color: #5b6f7b;
+	font-family: Arial;
+	font-size: 16pt;
+	font-style: normal;
+	font-weight: bold;	
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-left: 0;
+	
+	mc-hyphenate: never;		
+}
+
+.simple_overlay .contentWrap .subtitle {
+	
+	/* some "skinning" */	
+	color: #5b6f7b;
+	font-family: Arial;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	
+	mc-hyphenate: never;			
+}
+	
+/*
+	Primary photo wraper in photo album
+*/
+.simple_overlay .contentWrap .image_wrap {
+		
+		/* dimensions */		
+		width:320px;
+		height:240px;
+		
+		/* some "skinning" */
+		text-align:center;
+		margin-bottom: 10px;
+		margin-top: 0;
+		margin-right: 150px;
+		margin-left: 150px;		
+}
+
+/*	
+	Primary photo in photo album	
+*/
+
+.image_wrap img{
+
+		/* dimensions */
+		width:100%;
+		height:100%;
+	}	
+	
+/*
+	root element for the scrollable.
+	when scrolling occurs this element stays still.
+*/
+
+.simple_overlay .contentWrap .scrollable {
+
+	/* required settings */
+	position:relative;
+	overflow:hidden;
+	width:602px;
+	height:94px;
+	
+	/* some "skinning" */
+	margin-bottom: 0;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 18px;	
+	
+
+	/* custom decorations */
+	border:1px solid #ccc;
+	background:url(../../Resources/Images/UI/Couleurs/Degrades/h300.png) repeat-x;	
+}
+
+/*
+	root element for scrollable items. Must be absolutely positioned
+	and it should have a extremely large width to accomodate scrollable items.
+	it's enough that you set the width and height for the root element and
+	not for this element.
+*/
+
+.scrollable .items {
+	/* this cannot be too large */
+	width:100%;
+	position:absolute;
+	clear:both;
+	
+	/* centered */
+	text-align:center;
+}
+
+.scrollable .items div {
+	float:left;
+	width:100%;
+	height:100%;
+}
+
+/* single scrollable item */
+.scrollable img {
+	float:left;
+	margin:5px 7px 4px 7px;
+	background-color:#fff;
+	padding:2px;
+	border:1px solid #ccc;
+	width:100px;
+	height:75px;
+	cursor:pointer;
+}
+
+/* active item */
+.scrollable .active {
+	border:2px solid #000;
+	position:relative;
+	cursor:default;
+}
+
+/* this makes it possible to add next button beside scrollable */
+.scrollable {
+	float:left;	
+}
+
+/* prev, next, prevPage and nextPage buttons */
+a.browse {
+	background:url(../../Resources/Images/UI/Navigation/Scrollable/Fleches/hori_large.png) no-repeat;
+	display:block;
+	width:30px;
+	height:30px;
+	float:left;
+	margin:40px 10px;
+	cursor:pointer;
+	font-size:1px;
+}
+
+/* right */
+a.right 		{ background-position: 0 -30px; clear:right; margin-right: 0px;}
+a.right:hover 	{ background-position:-30px -30px; }
+a.right:active 	{ background-position:-60px -30px; } 
+
+
+/* left */
+a.left			{ margin-left: 0px; } 
+a.left:hover  	{ background-position:-30px 0; }
+a.left:active  	{ background-position:-60px 0; }
+
+/* up and down */
+/*a.up, a.down		{ 
+	background:url(../img/scrollable/arrow/vert_large.png) no-repeat; 
+	float: none;
+	margin: 10px 50px;
+}*/
+
+
+/* up */
+/*a.up:hover  		{ background-position:-30px 0; }*/
+/*a.up:active  		{ background-position:-60px 0; }*/
+
+/* down */
+/*a.down 				{ background-position: 0 -30px; }*/
+/*a.down:hover  		{ background-position:-30px -30px; }*/
+/*a.down:active  	{ background-position:-60px -30px; } */
+
+
+/* disabled navigational button */
+a.disabled {
+	visibility:hidden !important;		
+}

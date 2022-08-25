@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultAliasFile>
+    <Map Name="TopicIntroduction" Link="TopicIntroduction.htm" ResolvedId="10" />
+    <Map Name="TopicSections" Link="TopicSections.htm" ResolvedId="20" />
+    <Map Name="TopicInformationPrelimiminaire" Link="Sections/InformationPreliminaire/TopicInformationPreliminaire.htm" ResolvedId="30" />
+    <Map Name="TopicDesciptionLegale" Link="Sections/DescriptionLegale/TopicDescriptionLegale.htm" ResolvedId="40" />
+    <Map Name="TopicPropietaireEtHypotheque" Link="Sections/ProprietaireEtHypotheque/TopicPropietaireEtHypotheque.htm" ResolvedId="50" />
+    <Map Name="TopicBatimentEtTerrain" Link="Sections/BatimentEtTerrain/TopicBatimentEtTerrain.htm" ResolvedId="60" />
+    <Map Name="TopicPiecesEtOptions" Link="Sections/PiecesEtOptions/TopicPiecesEtOptions.htm" ResolvedId="70" />
+    <Map Name="TopicDescriptionDeLaFerme" Link="Sections/DescriptionDeLaFerme/TopicDescriptionDeLaFerme.htm" ResolvedId="80" />
+    <Map Name="TopicDescriptionCommerciale" Link="Sections/DescriptionCommerciale/TopicDescriptionCommerciale.htm" ResolvedId="90" />
+    <Map Name="TopicRevenusResidentiels" Link="Sections/RevenusResidentiels/TopicRevenusResidentiels.htm" ResolvedId="100" />
+    <Map Name="TopicRevenusCommIndustBureau" Link="Sections/RevenusCommIndustBureau/TopicRevenusCommIndustBureau.htm" ResolvedId="110" />
+    <Map Name="TopicRevenusEtDepensesExpl" Link="Sections/RevenusEtDepensesExpl/TopicRevenusEtDepensesExpl.htm" ResolvedId="120" />
+    <Map Name="TopicRevenus" Link="Sections/Revenus/TopicRevenus.htm" ResolvedId="130" />
+    <Map Name="TopicTaxesEtDepenses" Link="Sections/TaxesEtDepenses/TopicTaxesEtDepenses.htm" ResolvedId="140" />
+    <Map Name="TopicInformationComplementaire" Link="Sections/InformationComplementaire/TopicInformationComplementaire.htm" ResolvedId="150" />
+    <Map Name="TopicVisitesLibresEtCaravanes" Link="Sections/VisitesLibresEtCaravanes/TopicVisitesLibresEtCaravanes.htm" ResolvedId="160" />
+    <Map Name="TopicMultimedia" Link="Sections/Multimedia/TopicMultimedia.htm" ResolvedId="170" />
+    <Map Name="TopicAvisDeVente" Link="Sections/AvisDeVente/TopicAvisDeVente.htm" ResolvedId="180" />
+    <Map Name="TopicCoordonneesDeLAcheteur" Link="Sections/CoordonneesDeLAcheteur/TopicCoordonneesDeLAcheteur.htm" ResolvedId="190" />
+    <Map Name="SommaireFinancier" Link="Sections/SommaireFinancier/SommaireFinancier.htm" ResolvedId="145" />
+</CatapultAliasFile>

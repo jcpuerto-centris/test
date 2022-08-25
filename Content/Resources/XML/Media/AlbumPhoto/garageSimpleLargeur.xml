@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<!-- HTML body structure -->	
+	<div id="garageSimpleLargeur">
+		<!--Overlay title-->
+		<h1 class="title">Garage</h1>
+		<!--Overlay subtitle-->
+		<h2 class="subtitle">Simple largeur</h2>
+		<!--Main picture-->
+		<div class="image_wrap">
+			<!-- Initially the image is a simple 1x1 pixel transparent GIF -->
+			<img src="../../Resources/Images/AlbumsPhoto/blank.gif" />
+		</div>
+		<!-- "previous page" action -->
+		<!-- <a class="prev browse left"></a> -->
+		<!-- root element for scrollable -->
+		<div class="scrollable">
+			<!-- root element for the items -->
+			<div class="items">
+				<div>
+					<img src="../../Resources/Images/AlbumsPhoto/Garage/Garage_SimpleLargeur1_t.jpg" />
+					<img src="../../Resources/Images/AlbumsPhoto/Garage/Garage_SimpleLargeur2_t.jpg" />
+				</div>
+			</div>
+		</div>
+		<!-- "next page" action -->
+		<!-- <a class="next browse right"></a> -->
+	</div>
+</body>	
