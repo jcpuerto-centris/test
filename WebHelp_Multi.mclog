@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2022 Generated WebHelp_Multi.fltar" Date="2022-08-25T14:05:03.1426763-04:00">
+<MadCapLog Protocol="2" Description="MadCap Flare 2022 Generated WebHelp_Multi.fltar" Date="2022-08-25T16:53:43.5198826-04:00">
     <Messages>Compiling target WebHelp_Multi...
 Removing previously generated content...
 Loading skin info...
@@ -103,7 +103,7 @@ Generated Skins\Default\Stylesheets\Topic.micro-content.css
 Generated Default.htm
 Saving result set...
 Ignored Compiler Warnings: 219
-Output generated in 1 minute(s) and 54 second(s).
+Output generated in 2 minute(s) and 2 second(s).
 
 Done
 Saving log to "C:\Users\puertju\Desktop\FR\Output\puertju\WebHelp_Multi\WebHelp_Multi.mclog"
