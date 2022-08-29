@@ -756,7 +756,8 @@ ul.tree
 	background-repeat: no-repeat;
 	background-position: 0 3px;
 	position: relative;
-	color: #707070;
+	color: #1e3b54;
+	font-weight: bold;
 	line-height: 1.9em;
 }
 
